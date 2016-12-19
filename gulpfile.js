@@ -8,7 +8,7 @@ const config = {
     distPath: 'dist/'
 };
 
-gulp.task('browser-sync' , () => {
+gulp.task('browserSync' , () => {
     browserSync.init({
         server: {
           baseDir: './',
